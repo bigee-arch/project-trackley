@@ -1,0 +1,47 @@
+name: streak_quest
+description: A premium Habit Tracking & Gamification Flutter app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+  
+  # Database & Storage
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  path_provider: ^2.1.1
+  shared_preferences: ^2.2.2
+  
+  # UI & Assets
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.5.0
+  fl_chart: ^0.66.0
+  confetti: ^0.7.0
+  font_awesome_flutter: ^10.6.0
+  percent_indicator: ^4.2.3
+  
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.2.1
+  equatable: ^2.0.5
+  sqflite_common_ffi: ^2.3.6
+  sqflite_common_ffi_web: ^1.0.1+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.7
+  riverpod_generator: ^2.3.9
+  custom_lint: ^0.5.7
+
+flutter:
+  uses-material-design: true
